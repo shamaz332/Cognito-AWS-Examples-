@@ -16,4 +16,4 @@ exports.handler = (event: any, context: any,callback:any) => {
     // Return to Amazon Cognito
     callback(null, event);
 }
-};
+
