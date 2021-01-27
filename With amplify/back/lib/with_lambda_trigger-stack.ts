@@ -1,7 +1,6 @@
 import * as cdk from "@aws-cdk/core";
 import * as cognito from "@aws-cdk/aws-cognito";
-import * as lambda from "@aws-cdk/aws-lambda";
-import * as iam from "@aws-cdk/aws-iam";
+
 export class WithLambdaTriggerStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
